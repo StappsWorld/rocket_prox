@@ -15,4 +15,4 @@ data-form=\"100 MiB\"" > /app/Rocket.toml
 fi
 
 # Run service
-/app/nyaa_prox
+/app/rocket_prox
