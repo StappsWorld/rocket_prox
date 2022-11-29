@@ -1,5 +1,9 @@
 #!/bin/bash
 
+apt-get update -y
+apt-get install -y ca-certificates
+apt-get clean -y
+
 if [ ! -f /app/Rocket.toml ]; then
     echo "[release]
 address = \"0.0.0.0\"
