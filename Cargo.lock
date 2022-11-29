@@ -1222,6 +1222,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "rocket_prox"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "dotenv",
+ "futures",
+ "lazy_static",
+ "regex",
+ "reqwest",
+ "rocket",
+ "rocket_cors",
+]
+
+[[package]]
 name = "rustversion"
 version = "1.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1719,20 +1733,6 @@ dependencies = [
  "form_urlencoded",
  "idna",
  "percent-encoding",
-]
-
-[[package]]
-name = "url_prox"
-version = "0.1.0"
-dependencies = [
- "bytes",
- "dotenv",
- "futures",
- "lazy_static",
- "regex",
- "reqwest",
- "rocket",
- "rocket_cors",
 ]
 
 [[package]]
