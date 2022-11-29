@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  backend:
+    image: stappsworldreport/rocket_prox:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9999:9999"
+    environment:
+      - YOUR_BASEURL=http://localhost:9999
+      - PROX_BASEURL=https://rembisz.dev/
+    restart: unless-stopped
